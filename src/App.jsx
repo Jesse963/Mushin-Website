@@ -1,0 +1,42 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+// IMPORT COMMON
+import Navbar from "./pages/Components/01. Navbar";
+import Footer from "./pages/Components/02. Footer";
+
+// IMPORT PAGES
+import LandingPage from "./pages/Landing Page/LandingPage";
+import NotFoundPage from "./pages/404";
+import SolutionsPage from "./pages/Solutions/Solutions";
+import SingleCaseStudyPage from "./pages/Case Studies/SingleCaseStudy";
+import CaseStudiesListPage from "./pages/Case Studies/CaseStudies";
+import AboutUsPage from "./pages/About Us/AboutUs";
+import ContactPage from "./pages/Contact/Contact";
+
+function App() {
+  return (
+    <div
+      style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
+    >
+      <Navbar />
+      <div className="main mt-5 pt-5" style={{ flexGrow: 1 }}>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/solutions" element={<SolutionsPage />} />
+          <Route path="/case-studies" element={<CaseStudiesListPage />} />
+          <Route
+            path="/case-studies/:caseStudySlug"
+            element={<SingleCaseStudyPage />}
+          />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/*" element={<NotFoundPage />} />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;

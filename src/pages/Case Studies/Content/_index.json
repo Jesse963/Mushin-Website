@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "nsw-council-job-role-ai-standardisation",
+    "title": "AI Delivers 90% Faster Job Role Standardisation for NSW Councils Analysis",
+    "clientName": "Leading HR Consultancy Firm",
+    "industry": "Consulting / Human Resources / Public Sector",
+    "datePublished": "2024-07-27",
+    "imageUrl": "/images/case-studies/nsw-council-ai-hr.png",
+    "imageAlt": "Abstract graphic showing data standardisation and analysis",
+    "summary": "An HR consultancy supporting NSW councils faced weeks of manual effort standardising disparate job role data. Mushin Automation deployed a custom AI model that automated categorisation, slashing standardisation time by 90% and boosting accuracy from ~70% to over 95%, enabling rapid, reliable cross-council HR insights.",
+    "tags": [
+      "AI",
+      "Custom AI Model",
+      "Data Standardisation",
+      "Data Analysis",
+      "HR Tech",
+      "Consulting",
+      "Public Sector",
+      "Efficiency",
+      "Accuracy"
+    ]
+  },
+  {
+    "slug": "sap-udf-rpa-efficiency-boost",
+    "title": "Intelligent Automation Slashes SAP UDF Config Time by 90%, Cuts Rework by 87%",
+    "clientName": "Leading Retailer",
+    "industry": "Manufacturing / Consumer Goods",
+    "datePublished": "2024-07-27",
+    "imageUrl": "/images/case-studies/sap-udf-automation-graphic.png",
+    "imageAlt": "Abstract graphic representing automation efficiency in SAP UDF",
+    "summary": "A global manufacturing leader faced significant bottlenecks and errors from manual SAP UDF model configuration. Mushin Automation implemented an intelligent UiPath RPA solution automating the end-to-end process, reducing processing time per request from 60 minutes to just 5 minutes and slashing rework rates from 15% to under 2%, freeing expert teams for high-value strategic work.",
+    "tags": [
+      "RPA",
+      "UiPath",
+      "SAP",
+      "UDF",
+      "Intelligent Automation",
+      "Process Automation",
+      "Efficiency",
+      "Accuracy",
+      "Manufacturing"
+    ]
+  },
+  {
+    "slug": "uld-processing-ai-rpa",
+    "title": "AI & RPA Cut ULD Processing Time from Minutes to Seconds",
+    "clientName": "Major Logistics Provider",
+    "industry": "Logistics & Supply Chain",
+    "datePublished": "2024-07-27",
+    "imageUrl": "/images/case-studies/uld-ai-graphic.png",
+    "imageAlt": "Graphic illustrating AI data extraction for ULD processing",
+    "summary": "A major logistics provider struggled with slow, error-prone manual data entry from diverse ULD receipts across multiple distribution centres. Mushin Automation implemented a scalable AI (Google Vision + custom model) and RPA (UiPath) solution, cutting processing time from ~105 seconds to ~8 seconds per ULD, saving an estimated $80k annually, and reducing errors significantly.",
+    "tags": [
+      "AI",
+      "RPA",
+      "Google Cloud Vision",
+      "UiPath",
+      "Logistics",
+      "Data Extraction",
+      "OCR",
+      "Cost Savings",
+      "Scalability"
+    ]
+  }
+]

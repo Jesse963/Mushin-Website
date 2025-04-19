@@ -1,0 +1,53 @@
+{
+  "slug": "sap-udf-rpa-efficiency-boost",
+  "title": "Intelligent Automation Slashes SAP UDF Config Time by 90%, Cuts Rework by 87%",
+  "clientName": "Leading Retailer",
+  "industry": "Manufacturing / Consumer Goods",
+  "datePublished": "2024-07-27",
+  "imageUrl": "/images/case-studies/sap-udf-automation-graphic.png",
+  "imageAlt": "Abstract graphic representing automation efficiency in SAP UDF",
+  "summary": "A global manufacturing leader faced significant bottlenecks and errors from manual SAP UDF model configuration. Mushin Automation implemented an intelligent UiPath RPA solution automating the end-to-end process, reducing processing time per request from 60 minutes to just 5 minutes and slashing rework rates from 15% to under 2%, freeing expert teams for high-value strategic work.",
+  "challenge": {
+    "title": "The Challenge: Manual SAP Configuration Drain",
+    "content": "Manual configuration of demand forecasting models within SAP Unified Demand Forecasting (UDF) consumed excessive hours from the client's specialist support team. This highly repetitive, parameter-intensive process was not only a significant drain on valuable resources but was also susceptible to human error. These errors frequently led to costly rework, project delays, and critically, prevented the expert team from focusing on strategic forecasting analysis and improvement initiatives."
+  },
+  "solution": {
+    "title": "The Solution: Intelligent RPA for SAP UDF",
+    "content": "Mushin Automation delivered a bespoke Intelligent Automation solution leveraging the UiPath platform, specifically designed to master the complexities of the client's SAP UDF environment. Our approach focused on creating a robust digital worker with key capabilities:",
+    "bulletPoints": [
+      "**Seamless SAP Interaction:** Securely accessed and intelligently navigated the SAP UDF system.",
+      "**Automated Data Handling:** Automatically extracted parameters from requests and performed precise configuration entries.",
+      "**Enhanced Accuracy:** Incorporated built-in validation checks and sophisticated error handling to minimise exceptions.",
+      "**Process Visibility:** Provided automated reporting and status updates for full transparency."
+    ],
+    "footer": "Engineered to manage diverse business rules and system exceptions, the solution operates reliably on an hourly basis, ensuring timely and accurate configurations."
+  },
+  "results": {
+    "title": "The Results: Dramatic Gains in Efficiency and Accuracy",
+    "content": "The deployment of Mushin Automation's intelligent RPA solution delivered immediate and transformative results:",
+    "metrics": [
+      {
+        "value": "91.7%",
+        "label": "Reduction in Processing Time",
+        "detail": "(Average request time cut from ~60 minutes to 5 minutes)"
+      },
+      {
+        "value": "~87%",
+        "label": "Reduction in Rework Rate",
+        "detail": "(Error rates requiring rework dropped from 15% to <2%)"
+      }
+    ],
+    "conclusion": "Beyond the remarkable quantitative improvements, the automation returned significant blocks of time to the highly skilled support team daily. Liberated from tedious, repetitive tasks, these experts are now empowered to dedicate their time and expertise to more strategic initiatives – focusing on higher-value projects, driving forecasting innovation, and contributing more effectively to the organisation's core business goals. This engagement highlights how intelligent automation can unlock both operational efficiency and human potential."
+  },
+  "tags": [
+    "RPA",
+    "UiPath",
+    "SAP",
+    "UDF",
+    "Intelligent Automation",
+    "Process Automation",
+    "Efficiency",
+    "Accuracy",
+    "Manufacturing"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "nsw-council-job-role-ai-standardisation",
+  "title": "AI Delivers 90% Faster Job Role Standardisation for NSW Councils Analysis",
+  "clientName": "Leading HR Consultancy Firm",
+  "industry": "Consulting / Human Resources",
+  "datePublished": "2024-07-27",
+  "imageUrl": "/images/case-studies/nsw-council-ai-hr.png",
+  "imageAlt": "Abstract graphic showing data standardisation and analysis",
+  "summary": "An HR consultancy supporting NSW councils faced weeks of manual effort standardising disparate job role data. Mushin Automation deployed a custom AI model that automated categorisation, slashing standardisation time by 90% and boosting accuracy from ~70% to over 95%, enabling rapid, reliable cross-council HR insights.",
+  "challenge": {
+    "title": "The Challenge: Fragmented Data Hinders Cross-Council HR Insights",
+    "content": "Tasked with analysing HR structures across numerous NSW councils, our client, a specialist HR consultancy, encountered a major obstacle: fragmented data. Each council used unique job titles, pay scales, and reporting formats. Manually reconciling thousands of employee records to create a standardised dataset for analysis was projected to take weeks, delaying crucial insights, inflating project costs, and risking data inconsistencies."
+  },
+  "solution": {
+    "title": "The Solution: Custom AI for Automated Job Role Categorisation",
+    "content": "Mushin Automation developed and implemented a bespoke Artificial Intelligence solution to rapidly standardise the diverse council workforce data. Key capabilities included:",
+    "bulletPoints": [
+      "**Intelligent Analysis:** The AI model analysed multiple attributes per employee record (including title, remuneration, council, tenure) to understand context.",
+      "**Automated Standardisation:** Accurately mapped each unique employee record to the correct, predefined standardised job role.",
+      "**Elimination of Manual Effort:** Completely replaced the need for weeks of resource-intensive manual data reconciliation."
+    ],
+    "footer": "This custom AI engine provided the consultancy with a fast, accurate, and repeatable method for preparing complex, disparate datasets for analysis."
+  },
+  "results": {
+    "title": "The Results: Rapid Standardisation and Enhanced Accuracy",
+    "content": "The AI-powered solution provided immediate and significant benefits to the HR consultancy's workflow:",
+    "metrics": [
+      {
+        "value": "90%",
+        "label": "Reduction in Data Standardisation Time",
+        "detail": "(Reduced from weeks to hours/days)"
+      },
+      {
+        "value": ">95%",
+        "label": "Achieved Categorisation Accuracy",
+        "detail": "(Up from an estimated 70% manually)"
+      }
+    ],
+    "conclusion": "This dramatic increase in speed and accuracy allowed the consultancy to bypass the data preparation bottleneck entirely. Valuable consultant hours were freed up for strategic analysis and insight generation. Ultimately, the enhanced reliability and efficiency empowered the consultancy to deliver more timely, insightful, and data-driven recommendations to their NSW council clients, improving workforce planning and HR effectiveness across the sector."
+  },
+  "tags": [
+    "AI",
+    "Custom AI Model",
+    "Data Standardisation",
+    "Data Analysis",
+    "HR Tech",
+    "Consulting",
+    "Public Sector",
+    "Efficiency",
+    "Accuracy"
+  ]
+}

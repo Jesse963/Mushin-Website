@@ -1,0 +1,62 @@
+{
+  "slug": "uld-processing-ai-rpa",
+  "title": "AI & RPA Cut ULD Processing Time from Minutes to Seconds",
+  "clientName": "Major Logistics Provider",
+  "industry": "Logistics & Supply Chain",
+  "datePublished": "2024-07-27",
+  "imageUrl": "/images/case-studies/uld-ai-graphic.png",
+  "imageAlt": "Graphic illustrating AI data extraction for ULD processing",
+  "summary": "A major logistics provider struggled with slow, error-prone manual data entry from diverse ULD receipts across multiple distribution centres. Mushin Automation implemented a scalable AI (Google Vision + custom model) and RPA (UiPath) solution, cutting processing time from ~105 seconds to ~8 seconds per ULD, saving an estimated $80k annually, and reducing errors significantly.",
+  "challenge": {
+    "title": "The Challenge: Inefficient and Costly ULD Receipt Processing",
+    "content": "Processing hundreds of Unit Load Devices (ULDs) daily, the client relied on time-consuming manual data extraction from diverse receipts, including handwritten ones. An existing automated scanner solution at one site was expensive, inflexible regarding formats, nearing obsolescence, and couldn't be scaled cost-effectively across the entire distribution network, creating a major operational bottleneck."
+  },
+  "solution": {
+    "title": "The Solution: AI-Powered Data Extraction & Automated Entry",
+    "content": "Mushin Automation designed and implemented a comprehensive, scalable solution combining Artificial Intelligence and Robotic Process Automation:",
+    "bulletPoints": [
+      "**Intelligent Data Extraction:** Leveraged Google Cloud Vision API, enhanced by a custom AI model trained by Mushin, to accurately read and extract data from various receipt formats, including handwritten text.",
+      "**Automated Validation & Entry:** Employed UiPath RPA to automatically validate the extracted data against business rules and accurately enter it into the client's tracking system.",
+      "**Scalable & Cost-Effective Design:** Created a software-based solution easily deployable across all distribution centres, eliminating the need for expensive, specialised hardware at each site."
+    ],
+    "footer": "This integrated AI and RPA approach provided a flexible and future-proof alternative to hardware-dependent systems."
+  },
+  "results": {
+    "title": "The Results: Speed, Savings, Accuracy, and Scalability",
+    "content": "The implementation delivered significant improvements across the board:",
+    "metrics": [
+      {
+        "value": "~92%",
+        "label": "Reduction in Processing Time",
+        "detail": "(Average ~105s down to ~8s per ULD)"
+      },
+      {
+        "value": "~$80,000",
+        "label": "Est. Annual Labour Cost Savings",
+        "detail": "(Excluding legacy hardware costs)"
+      },
+      {
+        "value": ">80%",
+        "label": "Reduction in Rework Rate",
+        "detail": "(Errors reduced from ~7.5% to <1%)"
+      },
+      {
+        "value": "~60,000",
+        "label": "ULDs Processed Annually via Automation",
+        "detail": "(Demonstrating performance at scale)"
+      }
+    ],
+    "conclusion": "This transformation dramatically accelerated output, enhanced operational efficiency, and significantly improved data accuracy. Furthermore, it alleviated the burden of monotonous tasks for employees, allowing them to focus on more engaging work. The scalable nature of the solution provided substantial cost savings compared to previous hardware-based approaches, delivering exceptional value across the client's network."
+  },
+  "tags": [
+    "AI",
+    "RPA",
+    "Google Cloud Vision",
+    "UiPath",
+    "Logistics",
+    "Data Extraction",
+    "OCR",
+    "Cost Savings",
+    "Scalability"
+  ]
+}
