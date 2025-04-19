@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.js (Simplified for Vercel/Netlify root deployment)
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
+  // base: '/', // Default is '/', so you can often omit this line entirely
   plugins: [react()],
-})
+});
