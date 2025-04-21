@@ -8,7 +8,7 @@ const fetchCaseStudiesIndex = async () => {
   try {
     // Assumes an index file '_index.json' in the '/src/data/case-studies/' directory
     // This file should contain an array of case study summary objects.
-    const response = await fetch(`/Content/_index.json`);
+    const response = await fetch(`/content/_index.json`);
     const data = await response.json();
     return data;
   } catch (error) {

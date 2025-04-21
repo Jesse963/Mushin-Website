@@ -3,10 +3,7 @@ import { useParams, Link } from "react-router-dom"; // Assuming use of React Rou
 
 const fetchCaseStudyData = async (slug) => {
   try {
-    // Assumes JSON files are named like 'slug.json' and located in '/src/data/case-studies/'
-    // Adjust the path as per your project structure.
-    // const module = await import(`./content/${slug}.json`);
-    const response = await fetch(`/public/content/${slug}.json`);
+    const response = await fetch(`/content/${slug}.json`);
     const data = await response.json();
 
     return data;
