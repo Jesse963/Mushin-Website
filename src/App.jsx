@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 // IMPORT COMMON
 import Navbar from "./pages/Components/01. Navbar";
