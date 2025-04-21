@@ -8,7 +8,7 @@ const fetchCaseStudyData = async (slug) => {
 
     return data;
   } catch (error) {
-    console.error("Error fetching case study data:", error);
+    console.error("Error fetching case study data: ", error);
     return null;
   }
 };

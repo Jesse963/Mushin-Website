@@ -6,8 +6,6 @@ import { FaArrowTrendUp, FaArrowUpShortWide, FaBolt } from "react-icons/fa6";
 // In a real app, this might come from a CMS API or be generated at build time.
 const fetchCaseStudiesIndex = async () => {
   try {
-    // Assumes an index file '_index.json' in the '/src/data/case-studies/' directory
-    // This file should contain an array of case study summary objects.
     const response = await fetch(`/content/_index.json`);
     const data = await response.json();
     return data;
