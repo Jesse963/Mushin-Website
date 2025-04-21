@@ -16,7 +16,7 @@ const CtaSection = () => {
               Book a complimentary, no-obligation assessment with our experts
               today.
             </p>
-            <a href="#assessment-form" className="btn btn-primary-orange">
+            <a href="/contact" className="btn btn-primary-orange">
               {" "}
               {/* Link to form or contact section */}
               Book Your Free Assessment Now

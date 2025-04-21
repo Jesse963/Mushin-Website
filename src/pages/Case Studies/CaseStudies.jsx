@@ -8,8 +8,9 @@ const fetchCaseStudiesIndex = async () => {
   try {
     // Assumes an index file '_index.json' in the '/src/data/case-studies/' directory
     // This file should contain an array of case study summary objects.
-    const module = await import(`./Content/_index.json`);
-    return module.default; // Assuming the JSON file exports the array as default
+    const response = await fetch(`/Content/_index.json`);
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error("Error fetching case studies index:", error);
     return null;

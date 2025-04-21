@@ -22,7 +22,7 @@ const Hero = () => {
               sophisticated AI to optimise workflows, uncover critical insights,
               and enable proactive, data-driven decisions.
             </p>
-            <a href="#assessment" className="btn btn-primary-orange">
+            <a href="/contact" className="btn btn-primary-orange">
               {" "}
               {/* Use styled anchor or button */}
               Book Your Free Assessment
