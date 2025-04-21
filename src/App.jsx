@@ -16,6 +16,7 @@ import AboutUsPage from "./pages/About Us/AboutUs";
 import ContactPage from "./pages/Contact/Contact";
 import TermsOfServicePage from "./pages/tos";
 import PrivacyPolicyPage from "./pages/privacy";
+import SurveyPage from "./pages/Survey/Survey";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/survey" element={<SurveyPage />} />
           <Route path="/*" element={<NotFoundPage />} />
         </Routes>
       </div>
