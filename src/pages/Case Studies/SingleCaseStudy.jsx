@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom"; // Assuming use of React Rou
 
 const fetchCaseStudyData = async (slug) => {
   try {
-    const response = await fetch(`/content/${slug}.json`);
+    const response = await fetch(`/Content/${slug}.json`);
     const data = await response.json();
 
     return data;
