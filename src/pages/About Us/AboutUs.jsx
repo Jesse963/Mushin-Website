@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // If needed for CTAs
-
+import jesseImage from "../../assets/jesse.jpg";
 // Assume FuturaLegal CSS classes and Bootstrap utilities are available
 
 function AboutUsPage() {
@@ -155,17 +155,23 @@ function AboutUsPage() {
           <div className="col-md-4 text-center mb-4 mb-md-0">
             {/* Placeholder for Jesse's photo */}
             <div
-              className="bg-light-gray rounded-circle d-inline-block p-1"
-              style={{ width: "200px", height: "200px" }}
+              style={{
+                width: "250px",
+                height: "250px",
+                margin: "auto",
+              }}
             >
-              <div className="bg-medium-gray rounded-circle w-100 h-100 d-flex align-items-center justify-content-center">
-                <span className="text-white small">Photo</span>
-              </div>
+              <img
+                src={jesseImage}
+                alt=""
+                srcset=""
+                className="bg-medium-gray rounded-circle d-flex align-items-center justify-content-center"
+                style={{ height: "100%", width: "100%" }}
+              />
             </div>
           </div>
           <div className="col-md-8">
             <h3 className="font-montserrat-bold">Jesse Jenkins</h3>{" "}
-            {/* Add Last Name */}
             <p className="text-muted mb-3">Founder & Principal Consultant</p>
             <p className="text-dark-gray">
               Jesse founded Mushin Automation driven by a passion for

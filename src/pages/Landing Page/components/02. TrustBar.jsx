@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import woolworthsLogo from "../../../assets/woolworths.png";
+import mybLogo from "../../../assets/myb logo.png";
+import mastertekLogo from "../../../assets/mastertek.png";
+
 const TrustBar = () => {
-  // Placeholder: Replace with actual client logo image paths
-  const clientLogos = [
-    "src/assets/woolworths.png",
-    "src/assets/myb logo.png",
-    "src/assets/mastertek.png",
-  ];
+  // 2. Use the imported variables in the array
+  const clientLogos = [woolworthsLogo, mybLogo, mastertekLogo];
 
   return (
     <section className="trust-bar">
@@ -21,6 +21,7 @@ const TrustBar = () => {
               Trusted by Industry Leaders
             </h5>
           </Col>
+          {/* 3. The map function now uses the correct image paths */}
           {clientLogos.map((logoSrc, index) => (
             <Col
               key={index}
@@ -30,9 +31,10 @@ const TrustBar = () => {
               className="text-center mb-3 mb-md-0"
             >
               <img
-                src={logoSrc}
+                src={logoSrc} // This now holds the correct path provided by the import
                 alt={`Client Logo ${index + 1}`}
-                className="img-fluid"
+                className="img-fluid" // img-fluid is good for responsiveness
+                // Consider adding explicit height/width constraints via CSS if needed
               />
             </Col>
           ))}

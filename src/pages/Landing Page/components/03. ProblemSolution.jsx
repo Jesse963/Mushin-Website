@@ -1,6 +1,7 @@
 // src/components/ProblemSolution.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import graphic from "../../../assets/72db83e5-8ef7-459b-8a8d-f7101e51fb0d.png";
 
 const ProblemSolution = () => {
   return (
@@ -59,7 +60,7 @@ const ProblemSolution = () => {
             <div>
               <img
                 class="img-fluid"
-                src="/src/assets/72db83e5-8ef7-459b-8a8d-f7101e51fb0d.png"
+                src={graphic}
                 alt="Intelligent Automation Concept"
               />
             </div>

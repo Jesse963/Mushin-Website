@@ -21,7 +21,7 @@ function SolutionsPage() {
             competitive edge.
           </p>
           {/* Use <a> tag with .btn-primary-orange class directly for the CTA */}
-          <a href="#contact-us" className="btn-primary-orange">
+          <a href="/contact" className="btn-primary-orange">
             {" "}
             {/* Use CSS class directly */}
             Request an AI Opportunity Assessment
@@ -262,7 +262,7 @@ function SolutionsPage() {
             your operations. Contact us today for a personalised consultation.
           </p>
           {/* Use .btn-primary-orange directly */}
-          <a href="#contact-us" className="btn-primary-orange">
+          <a href="/contact" className="btn-primary-orange">
             Schedule Your Consultation
           </a>
         </div>
