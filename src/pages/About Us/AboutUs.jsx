@@ -178,7 +178,7 @@ function AboutUsPage() {
               streamlining operations and empowering employees through
               intelligent automation. With over 5 years of experience spanning
               software development, process improvement, and AI implementation,
-              he brings a practical, results-oriented approach to solving
+              he brings a practical, results-oriented approach to sozlving
               complex business challenges.
             </p>
             <p className="text-dark-gray">
