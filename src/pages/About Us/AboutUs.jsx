@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom"; // If needed for CTAs
 import jesseImage from "../../assets/jesse.jpg";
+import graphic from "../../assets/72db83e5-8ef7-459b-8a8d-f7101e51fb0d.png";
+
 // Assume FuturaLegal CSS classes and Bootstrap utilities are available
 
 function AboutUsPage() {
@@ -23,11 +25,12 @@ function AboutUsPage() {
       <section className="row mb-5 pb-5 align-items-center">
         <div className="col-lg-6 mb-4 mb-lg-0">
           {/* Consider placing an image here - e.g., team photo, abstract graphic */}
-          <div
-            className="bg-light-gray rounded d-flex align-items-center justify-content-center"
-            style={{ minHeight: "300px" }}
-          >
-            <p className="text-muted">Conceptual Image Placeholder</p>
+          <div className="" style={{ minHeight: "300px" }}>
+            <img
+              class="img-fluid"
+              src={graphic}
+              alt="Intelligent Automation Concept"
+            />
           </div>
         </div>
         <div className="col-lg-6">

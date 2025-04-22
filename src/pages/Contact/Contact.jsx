@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // If needed, though not used in this example
+import axios from "axios";
 
 // Assume FuturaLegal CSS classes and Bootstrap utilities are available
 // Assume Bootstrap Icons are available or use alternative icons
@@ -22,14 +23,21 @@ function ContactPage() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // --- Form Submission Logic ---
-    // Add your logic here to handle form submission,
-    // e.g., send data to an API endpoint, email service, etc.
-    console.log("Form data submitted:", formData);
-    alert("Thank you for your message! We will be in touch soon."); // Placeholder confirmation
-    // Reset form after submission (optional)
+
+    const response = await axios.post(
+      "https://survey-api-service-667063972406.australia-southeast1.run.app/api/contact/",
+      formData
+    );
+    console.log(response);
+    if (response.status < 200 || response.status > 399) {
+      return window.alert(
+        "A server issue prevented your contact form from being submitted"
+      );
+    }
+    console.log(response);
+
     setFormData({
       firstName: "",
       lastName: "",
@@ -37,6 +45,7 @@ function ContactPage() {
       phone: "",
       message: "",
     });
+    window.location.href = "/contact-received";
   };
 
   return (
