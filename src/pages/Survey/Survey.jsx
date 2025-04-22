@@ -1,6 +1,7 @@
 // src/pages/SurveyPage.jsx or similar path
 
 import React, { useState } from "react";
+import axios from "axios";
 
 // Assuming the AccentDivider component/class is available globally or imported
 const AccentDivider = () => (
@@ -101,14 +102,17 @@ function SurveyPage() {
     return Object.keys(newErrors).length === 0; // True if no errors
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (validateForm()) {
-      console.log("Survey Data Submitted:", formData);
-      // --- TODO: Add actual data submission logic here ---
-      // (e.g., send data to your backend API)
-      alert("Thank you for your valuable feedback!");
-      // Optionally redirect or clear form
+      const response = await axios.post(
+        "https://survey-api-service-667063972406.australia-southeast1.run.app/api/survey/",
+        formData
+      );
+      const data = await response.data;
+      if (response.status === 201) {
+        window.location.href = "/survey-received";
+      }
     } else {
       console.log("Validation Errors:", errors);
       // Optionally scroll to the first error

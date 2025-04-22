@@ -17,6 +17,7 @@ import ContactPage from "./pages/Contact/Contact";
 import TermsOfServicePage from "./pages/tos";
 import PrivacyPolicyPage from "./pages/privacy";
 import SurveyPage from "./pages/Survey/Survey";
+import ThankYouPage from "./pages/Survey/Survey-Received";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/survey" element={<SurveyPage />} />
+          <Route path="/survey-received" element={<ThankYouPage />} />
           <Route path="/*" element={<NotFoundPage />} />
         </Routes>
       </div>
