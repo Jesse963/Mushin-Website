@@ -53,6 +53,20 @@ const Navbar = () => {
             >
               Contact
             </Nav.Link>
+
+            <Nav
+              href="/solutions"
+              className="font-montserrat-bold text-white"
+              style={{ alignItems: "center" }}
+            >
+              |
+            </Nav>
+            <Nav.Link
+              href="/solutions"
+              className="font-montserrat-bold text-white"
+            >
+              Platform
+            </Nav.Link>
             {/* Optional: CTA in Navbar */}
             {/* <Nav.Link href="#assessment" className="btn btn-outline-orange ms-lg-3">Free Assessment</Nav.Link> */}
           </Nav>

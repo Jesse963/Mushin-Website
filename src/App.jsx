@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 
 // IMPORT COMMON
-import Navbar from "./pages/Components/01. Navbar";
-import Footer from "./pages/Components/02. Footer";
+import Navbar from "./pages/01. Components/01. Navbar";
+import Footer from "./pages/01. Components/02. Footer";
 
 // IMPORT PAGES
 import LandingPage from "./pages/Landing Page/LandingPage";

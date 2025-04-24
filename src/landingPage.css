@@ -123,10 +123,13 @@ section {
   background-color: var(--near-black);
   padding: 1rem 0;
 }
-.navbar .navbar-brand,
+.navbar .navbar-brand {
+  color: var(--white);
+  font-weight: 600;
+}
 .navbar .nav-link {
   color: var(--white);
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
