@@ -62,7 +62,7 @@ const Navbar = () => {
               |
             </Nav>
             <Nav.Link
-              href="/solutions"
+              href="https://platform.mushin.com.au"
               className="font-montserrat-bold text-white"
             >
               Platform
